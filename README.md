@@ -1,15 +1,15 @@
 # lucky-draw
-lucky-draw is a program which will pick a item randomly from a pool of items and declare it as the winner.
+lucky-draw is a program which will pick an item randomly from a pool of items and declare it as the winner.
 
 ## Installation
 No installation is required. Just download/clone the repository.
 ## Usage
-All you have to do is run the binary _lucky-draw_ in the repository, with argument as a text file which contains the 
-items eligible in the lucky draw.
+All you have to do is run the binary _lucky-draw_ in the repository, with the path to a text file (which contains the 
+items eligible in the lucky draw) as an argument.
 
 **Example:** 
 ```go
-./lucky-draw absolute/path/to/file.txt
+./lucky-draw path/to/file.txt
 ```
 All the items in the text file must be in separate lines.     
   
